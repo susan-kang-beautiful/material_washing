@@ -1,0 +1,198 @@
+html {
+    width : 100%
+}
+
+body, h1,h5 {
+    font-family: 'Outfit',  sans-serif;
+    max-width: 1200px;
+    /* min-width: 650px; */
+    margin: 0 auto;
+    padding: 0;
+    cursor: default;
+    width : 100%;
+}
+
+
+.content_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.container {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container > li {
+    list-style: none;
+}
+
+.material__title {
+    margin-top: 12px;
+    margin-bottom: 7px;
+    padding-left: 5.8%;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.material__title__line {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-color: black;
+}
+
+.material_title_link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.material_title_link:hover {
+    color: rgb(23, 23, 23);
+}
+
+.material {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 140px;
+}
+
+.material__img {
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 85px 0px 40px 0px;
+    border: 1px solid black;
+}
+
+
+
+.material__description {
+    width: 600px;
+    height:350px;
+    background-color: transparent;
+    margin-left: 1% ;
+    
+}
+
+.material__name {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.material__info__container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px;
+}
+/* flx 0,5  */
+.material__info {
+    flex: 1; 
+    width: 299px;
+    height : 360px;
+    border-right: 1px solid black;
+}
+
+/* 이쪽에서 원단 이미지를 추하가세요. */
+.cotton {background-image: url(images/cotton.jpg); background-size: cover;}
+.linen {background-image: url(images/linen.jpg); background-size: cover;}
+.nylon {background-image: url(images/nylon.jpg); background-size: cover;}
+.acryl {background-image: url(images/acryl.jpg); background-size: cover;}
+.polyester {background-image: url(images/polyester.jpg); background-size: cover;}
+.spandex {background-image: url(images/spandex.jpg); background-size: cover;}
+.polypropylene {background-image: url(images/pp.jpg); background-size: cover;}
+
+.material__method {
+    flex: 1;
+    width: 301px;
+    height : 360px;
+}
+
+.material__name > span {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(96, 96, 96);
+}
+
+.material__info > p {
+    padding-right: 9px;
+    word-break: break-all;
+}
+
+.material__method > ul {
+    font-size: 1.1rem;
+    list-style: none;
+    padding-left: 5px;
+    margin-top: 12px;
+}
+
+.material__method > ul > li{
+    padding: 8px 10px;
+}
+.material__method > ul > li:first-child {
+    padding-left: 13px;
+}
+.material__method > ul > li:last-child {
+    padding-left: 5px;
+}
+
+
+
+.notice__box {
+    padding: 10px 3%;
+}
+.notice__box > h3 {
+    margin-top: 80px;
+}
+
+
+
+
+#side_bar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 90%;
+    right: 2%;
+    /* border: 1px solid black; */
+    width: 80px;
+
+}
+
+/* #side_bar > h5{
+    text-align: center;
+} */
+
+
+#moveTopBtn {
+    right: 18%;
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* -webkit-user-select: none; */
+    cursor: default;
+    border: #000000 solid 1px;
+    padding: 10px;
+    color: black;
+    background-color: #ffffff;
+}
+
+#moveTopBtn :hover {
+    color: #ffffff;
+    background-color: #000000;
+
+}
