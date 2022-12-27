@@ -196,3 +196,38 @@ body, h1,h5 {
     background-color: #000000;
 
 }
+
+
+/* Mobile 629px below */
+@media (max-width: 629px) {
+
+    .material {
+        margin-bottom: 140px;
+    }
+    
+    .material__info__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+       
+    }
+
+    .material__info {
+        flex: 1; 
+        width: 100%;
+        height : 360px;
+        border-right: transparent
+        
+    }
+
+
+    .material__method {
+        flex: 1; 
+        margin: 0 auto;
+        /* border-top : 1px solid black; */
+       
+    }
+    
+   
+    
+}
